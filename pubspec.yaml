@@ -1,6 +1,6 @@
 name: sizable
 description: Making code less managable and writing clean code. Reuse commonly used sizing padding widgets.
-version: 0.0.3
+version: 0.0.4
 homepage: https://github.com/workfor21/sizable
 
 environment:
