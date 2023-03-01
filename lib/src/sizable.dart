@@ -22,11 +22,11 @@ extension CustomSize on num {
 
 extension CustomAlign on String {
   Widget align(Widget child) => Align(
-    alignment: this == 'left'
-        ? Alignment.centerLeft
-        : this == 'center'
-        ? Alignment.center
-        : Alignment.bottomRight,
-    child: child,
-  );
+        alignment: this == 'left'
+            ? Alignment.centerLeft
+            : this == 'center'
+                ? Alignment.center
+                : Alignment.bottomRight,
+        child: child,
+      );
 }
