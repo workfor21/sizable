@@ -13,10 +13,10 @@ spacingSym({double? h, double? v}) =>
 spacingOnly({double? t, double? r, double? l, double? b}) =>
     EdgeInsets.only(left: l ?? 0, right: r ?? 0, bottom: b ?? 0, top: t ?? 0);
 
-extension CustomSize on double {
-  Widget get sizew => SizedBox(width: this);
+extension CustomSize on num {
+  Widget get sizew => SizedBox(width: this.toDouble());
 
-  Widget get sizeh => SizedBox(height: this);
+  Widget get sizeh => SizedBox(height: this.toDouble());
 // double get height => customSizedHeight(this);
 }
 
